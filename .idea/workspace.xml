@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3049315b-19db-4c88-b5e3-757163d3f6b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StreamIntegerManipulation/ArraysAndStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamIntegerManipulation/ArraysAndStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,20 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArraysAndStreams">
+  <component name="RunManager" selected="Application.ArrayAndStream2">
+    <configuration name="ArrayAndStream2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamStringManipulation.ArrayAndStream2" />
+      <module name="streams and lambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StreamStringManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArraysAndStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamIntegerManipulation.ArraysAndStreams" />
       <module name="streams and lambdas" />
@@ -92,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumEvenNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workingWithReduce.SumEvenNums" />
-      <module name="streams and lambdas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="workingWithReduce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayAndStream2" />
         <item itemvalue="Application.ArraysAndStreams" />
         <item itemvalue="Application.IntStreamOperations" />
         <item itemvalue="Application.RandomNumbersWithStream" />
         <item itemvalue="Application.StreamFilterMapReduce" />
-        <item itemvalue="Application.SumEvenNums" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670367849632</updated>
       <workItem from="1670367851963" duration="10358000" />
-      <workItem from="1673381978212" duration="3664000" />
+      <workItem from="1673381978212" duration="6675000" />
     </task>
     <servers />
   </component>
