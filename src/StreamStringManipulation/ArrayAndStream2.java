@@ -11,5 +11,10 @@ public class ArrayAndStream2 {
 
         System.out.printf("Array in uppercase: %s%n",
                 Arrays.stream(strings).map(String::toUpperCase).collect(Collectors.toList()));
+
+        System.out.printf("Strings less than n in ascending order: %s%n", Arrays.stream(strings)
+                .filter(letter -> letter.compareToIgnoreCase("n") < 0).sorted(String.CASE_INSENSITIVE_ORDER).
+                collect(Collectors.toList()));
     }
+
 }
