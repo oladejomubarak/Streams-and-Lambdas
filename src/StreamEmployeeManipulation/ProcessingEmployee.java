@@ -36,5 +36,11 @@ public class ProcessingEmployee {
                 employeeList.stream()
                         .filter(range4kto6k)
                         .findFirst().get());
+
+        Comparator<Employee> lastNameThenFirst = Comparator.comparing(Employee::getLastName)
+                .thenComparing(Employee::getFirstName);
+
+        System.out.printf("Printing employees sorted by last name then first if last name is same: %n");
+                employeeList.stream().sorted(lastNameThenFirst).forEach(System.out::println);
     }
 }
