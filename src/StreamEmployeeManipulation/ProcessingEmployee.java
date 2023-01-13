@@ -42,5 +42,9 @@ public class ProcessingEmployee {
 
         System.out.printf("Printing employees sorted by last name then first if last name is same: %n");
                 employeeList.stream().sorted(lastNameThenFirst).forEach(System.out::println);
+
+        System.out.printf("Printing employees sorted by last name then first name in descending order: %n ");
+
+        employeeList.stream().sorted(lastNameThenFirst.reversed()).forEach(System.out::println);
     }
 }
