@@ -19,7 +19,6 @@ public class ProcessingEmployee {
         List<Employee> employeeList = Arrays.asList(employees);
         System.out.println("Complete employee list: ");
 
-        employeeList.stream().forEach(System.out::println
-        );
+        employeeList.stream().forEach(System.out::println);
     }
 }
