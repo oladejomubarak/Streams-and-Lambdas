@@ -46,5 +46,9 @@ public class ProcessingEmployee {
         System.out.printf("Printing employees sorted by last name then first name in descending order: %n ");
 
         employeeList.stream().sorted(lastNameThenFirst.reversed()).forEach(System.out::println);
+
+        System.out.printf("Printing Unique employee by their last names: %n");
+
+        employeeList.stream().map(Employee::getLastName).distinct().forEach(System.out::println);
     }
 }
