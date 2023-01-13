@@ -38,7 +38,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayAndStream2">
+  <component name="RunManager" selected="Application.ProcessingEmployee">
     <configuration name="ArrayAndStream2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamStringManipulation.ArrayAndStream2" />
       <module name="streams and lambdas" />
@@ -78,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProcessingEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamEmployeeManipulation.ProcessingEmployee" />
+      <module name="streams and lambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StreamEmployeeManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomNumbersWithStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="randomNumberswithStream.RandomNumbersWithStream" />
       <module name="streams and lambdas" />
@@ -91,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamFilterMapReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workingWithReduce.StreamFilterMapReduce" />
-      <module name="streams and lambdas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="workingWithReduce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProcessingEmployee" />
         <item itemvalue="Application.ArrayAndStream2" />
         <item itemvalue="Application.ArraysAndStreams" />
         <item itemvalue="Application.IntStreamOperations" />
         <item itemvalue="Application.RandomNumbersWithStream" />
-        <item itemvalue="Application.StreamFilterMapReduce" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670367849632</updated>
       <workItem from="1670367851963" duration="10358000" />
-      <workItem from="1673381978212" duration="9921000" />
+      <workItem from="1673381978212" duration="12050000" />
     </task>
     <servers />
   </component>
