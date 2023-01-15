@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3049315b-19db-4c88-b5e3-757163d3f6b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamIntegerManipulation/RandomIntStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamIntegerManipulation/RandomIntStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,7 @@
       <updated>1670367849632</updated>
       <workItem from="1670367851963" duration="10358000" />
       <workItem from="1673381978212" duration="17590000" />
-      <workItem from="1673650862260" duration="5470000" />
+      <workItem from="1673650862260" duration="6553000" />
     </task>
     <servers />
   </component>
