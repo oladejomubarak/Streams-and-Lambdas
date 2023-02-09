@@ -1,5 +1,5 @@
 public class Test {
-        static int a =50;
+         int a =50;
         public static void main(String[] args) {
             int a =10;
             a=Test.a=90;
